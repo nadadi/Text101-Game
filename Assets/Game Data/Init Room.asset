@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2c757e532944c4cbd06ac8af1fa303, type: 3}
+  m_Name: Init Room
+  m_EditorClassIdentifier: 
+  roomText: "Aqu\xED deber\xEDa ir la historia de una habitaci\xF3n del juego.\n\n1.
+    Ir a la habitaci\xF3n A.\n2. Ir a la habitaci\xF3n B."
+  nextStates:
+  - {fileID: 11400000, guid: f4a01e7e84bab4c6da867038d29cbd87, type: 2}
+  - {fileID: 11400000, guid: 946170c46d344415c925d7ededce7cf3, type: 2}
